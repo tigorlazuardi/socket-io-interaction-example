@@ -1,0 +1,12 @@
+{
+    "name": "socket",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "dev:server": "cd server && npm start",
+        "dev:client": "cd client && npm start"
+    },
+    "keywords": [],
+    "author": "Tigor Hutasuhut",
+    "license": "ISC"
+}
