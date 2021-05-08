@@ -20,6 +20,7 @@ class UserController {
             },
             error: '',
         }
+        // `this` here will be missing when called by express. Use `bind` on router to make sure `this` exist.
         this.io.sockets.emit('user:created', msg)
         res.json(msg)
     }
